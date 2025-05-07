@@ -12,3 +12,5 @@ export async function POST(req: Request) {
   todos.push(newTodo)
   return NextResponse.json(newTodo)
 }
+
+
